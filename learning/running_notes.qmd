@@ -1,0 +1,60 @@
+---
+title: "Learning Notes"
+subtitle: "Notes from differential modeling lab"
+author: "Ben Choat"
+date: today
+date-format: long
+abstract: |
+  hold
+
+# Language & Document Settings
+lang: en
+
+# Code Output & Execution Options
+execute:
+  echo: true
+  warning: false
+  message: false
+
+# Standard Cross-Format Styling Defaults
+format:
+  # HTML Output Configuration
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-depth: 3
+    toc-location: left
+    number-sections: true
+    code-fold: show
+    code-tools: true
+    embed-resources: true
+    smooth-scroll: true
+
+  # PDF Output Configuration
+  pdf:
+    documentclass: article
+    papersize: letter
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1in
+      - right=1in
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+    citecolor: blue
+
+  # Microsoft Word (DOCX) Output Configuration
+  docx:
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    highlight-style: github
+    # reference-doc: custom-styles.docx  # Optional: path to reference style template
+---
+
